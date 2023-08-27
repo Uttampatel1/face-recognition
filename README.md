@@ -8,7 +8,20 @@ This is a simple guide on how to use the `face_detection` library in Python to p
 To install the `face_detection` library, you can use the following pip command:
 
 ```bash
+pip install opencv-python
 pip install face-detection
+```
+
+## save imgages
+
+Add image to images folder and rename image.
+
+## Running the Code
+
+After you've created your Python script (e.g., `main.py`) with the above code, you can run it using the following command:
+
+```bash
+python main.py
 ```
 
 ## Usage
@@ -75,13 +88,6 @@ Follow these steps to perform face detection using the `face_detection` library:
    cv2.imwrite(output_path, image)
    ```
 
-## Running the Code
-
-After you've created your Python script (e.g., `main.py`) with the above code, you can run it using the following command:
-
-```bash
-python main.py
-```
 
 This will execute the face detection code on the specified image and display the result with bounding boxes around detected faces.
 
